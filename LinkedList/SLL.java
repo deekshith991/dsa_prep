@@ -13,7 +13,7 @@ class Node {
   }
 }
 
-public class SingleLL {
+class SingleLL {
 
   private Node Head;
   public int size = 0;
@@ -34,6 +34,9 @@ public class SingleLL {
     System.out.println("null");
   }
 
+  public int size(){
+    return size;
+  }
 
 
   public void add(int data ){
@@ -52,4 +55,33 @@ public class SingleLL {
     size++;
   }
 
+  public void remove(int val) {
+
+    if( Head == null)
+      return;
+
+    if(Head.data == val){
+      Head = Head.next;
+      size--;
+      return ;
+    }
+    Node curr = Head;
+    Node prev = null;
+
+    while(curr!= null && curr.data != val){
+      prev = curr;
+      curr = curr.next;
+    }
+
+    if( curr == null ){
+      return;
+    }
+
+    prev.next = curr.next;
+    size--;
+    return ;
+
+  }
+
 }
+
