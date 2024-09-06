@@ -1,8 +1,8 @@
 
 
-public class MajorityElement{
+public class MajorityElementL169{
 
-  pubic int solution( int[] nums){
+  public int solution( int[] nums){
 
     int majority = nums[0];
     int cnt = 0;
