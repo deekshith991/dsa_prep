@@ -13,6 +13,11 @@ public class Integer2Binary {
         int n = s.nextInt();
         s.close();
 
+        System.out.println(convert(n));
+    }
+
+    public static String convert( int n) {
+        
         StringBuffer res = new StringBuffer(); 
         while( n != 0){
             if( n%2 == 1){
@@ -24,8 +29,7 @@ public class Integer2Binary {
         }
         //res.append(1);
 
-        res.reverse();
-
-        System.out.println(res);
+        String str = new String( res.reverse() );
+        return str;
     }
 }

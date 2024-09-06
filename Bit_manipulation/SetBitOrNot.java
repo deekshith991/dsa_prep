@@ -1,4 +1,5 @@
 
+package Bit_manipulation;
 import java.util.Scanner;
 
 public class SetBitOrNot {

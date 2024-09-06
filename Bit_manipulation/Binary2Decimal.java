@@ -13,6 +13,11 @@ public class Binary2Decimal {
         String s = sc.nextLine();
         sc.close();
 
+        System.out.println( convert(s));
+    }
+
+    public static int convert( String s) {
+        
         int ans = 0;
         int j =0;
         for( int i = s.length()-1; i>=0; i--){
@@ -21,6 +26,6 @@ public class Binary2Decimal {
             }
             j++;
         }
-        System.out.println(ans);
+        return ans;
     }
 }
