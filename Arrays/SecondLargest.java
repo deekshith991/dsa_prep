@@ -2,6 +2,7 @@
 //{ Driver Code Starts
 // Initial Template for Java
 package Arrays;
+
 import java.util.Arrays;
 import java.util.*;
 //import java.util.stream.Collectors;
@@ -23,27 +24,26 @@ public class SecondLargest {
     }
 }
 
-
 // User function Template for Java
 
 class Solution {
     public int print2largest(int[] arr) {
-        
+
         int large = 0;
         int SecLarge = 0;
-        
-        for( int i = 0 ; i < arr.length ; i++){
-            if( arr[i] > large){
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] > large) {
                 SecLarge = large;
                 large = arr[i];
             }
-            
-            if( arr[i] < large && arr[i] > SecLarge){
+
+            if (arr[i] < large && arr[i] > SecLarge) {
                 SecLarge = arr[i];
             }
         }
-        
+
         return SecLarge;
-        
+
     }
 }
