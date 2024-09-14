@@ -11,9 +11,9 @@ This file contains all the DSA problems that i have attempted and solved
 ## Modules
 - Data Structure
   - [Arrays](./Arrays/)
-- (Algorithms)[./Algorithms/]
+- [Algorithms](./Algorithms/)
   - Arrays
-    - (Kadanes Algo)[./Algorithms/Arrays/Kadane.java]
+    - [Kadanes Algo](./Algorithms/Arrays/Kadane.java)
 
 
 
