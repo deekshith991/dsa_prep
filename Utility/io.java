@@ -1,5 +1,6 @@
-package  Utility;
-import  java.util.Scanner;
+package Utility;
+import java.util.Random;
+import java.util.Scanner;
 
 public class io {
     //private static Scanner sc = new Scanner(System.in);
@@ -33,6 +34,24 @@ public class io {
       for( int i=0; i<arr.length ; i++){
         System.out.print(arr[i]+" ");
       }System.out.println();
+    }
+
+    public static int[] randArr(){
+      Random r = new Random();
+
+      int size = 30;
+      int[] arr = new int[r.nextInt(size)];
+
+      for (int i = 0; i < arr.length; i++) {
+        arr[i] = r.nextInt(-20, 20);
+      }
+
+      return arr;
+    }
+
+    public static int rendNum(){
+      Random r = new Random();
+      return r.nextInt(15);
     }
 
 }
