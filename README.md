@@ -9,7 +9,12 @@ This file contains all the DSA problems that i have attempted and solved
 > all the algo\'s are in Algorithms Dir.
 
 ## Modules
-- [Arrays](./Arrays/)
+- Data Structure
+  - [Arrays](./Arrays/)
+- (Algorithms)[./Algorithms/]
+  - Arrays
+    - (Kadanes Algo)[./Algorithms/Arrays/Kadane.java]
+
 
 
 
