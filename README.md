@@ -8,4 +8,10 @@ This file contains all the DSA problems that i have attempted and solved
 > [!NOTE] Algorithms
 > all the algo\'s are in Algorithms Dir.
 
+## Modules
+- [Arrays](./Arrays/)
+
+
+
+
 
