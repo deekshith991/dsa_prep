@@ -16,10 +16,15 @@ This file contains all the DSA problems that i have attempted and solved
 
 
 - [Algorithms](./Algorithms/)
+
   - Arrays
-    - [x] [kaden's Algorithms](./Algorithms/Arrays/Kadane.java)
+    - - [x] [kaden's Algorithms](./Algorithms/Arrays/Kadane.java)
 
 
+- Leetcode
+
+  - [Arrays](./Arrays/Leetcode.java)
+    - [x] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 
 
 

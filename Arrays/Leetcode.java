@@ -46,4 +46,32 @@ class Solution {
         return ans;
     }
 
+
+    public int maxProfit(int[] price) {
+      /*
+       * maxProfit
+       *
+       * Url [https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/]
+       *
+       * Leetcode problem 121
+       * */
+
+      int[] arr = new int[price.length];
+
+      for(int i=0; i<price.length-1 ; i++){
+        arr[i] = price[i+1] - price[i];
+      }
+
+      int max = Integer.MIN_VALUE;
+      int sum = 0;
+      for( int i=0; i<arr.length ; i++){
+        sum += arr[i];
+          if( sum > max)
+            max= sum;
+          if(sum<0)
+            sum = 0;
+        }
+        return max;
+    }
+
 }
