@@ -26,7 +26,6 @@ public class Kadane {
       if( sum < 0)
         sum = 0;
     }
-    return sum ;
     return maxi ;
   }
 }
