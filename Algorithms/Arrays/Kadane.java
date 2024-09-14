@@ -27,5 +27,6 @@ public class Kadane {
         sum = 0;
     }
     return sum ;
+    return maxi ;
   }
 }
