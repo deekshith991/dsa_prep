@@ -13,7 +13,7 @@ public class Leetcode {
 
 
 
-class Solution {
+class solution {
 
     /**
      * subsetsWithDup
