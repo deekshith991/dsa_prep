@@ -1,6 +1,6 @@
 package Arrays;
 
-class Solution {
+class RemoveDuplicates {
     public int removeDuplicates(int[] nums) {
 
         int ptr = 1;

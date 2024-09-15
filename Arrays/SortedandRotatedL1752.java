@@ -1,6 +1,6 @@
 package Arrays;
 
-class Solution {
+class SortedandRotatedL1752 {
     public boolean check(int[] nums) {
         int cnt = 0;
         if( nums[0] < nums[nums.length-1])

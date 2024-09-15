@@ -16,7 +16,7 @@ public class SecondLargest {
         while (t-- > 0) {
             String[] arr1Str = sc.nextLine().split(" ");
             int[] arr = Arrays.stream(arr1Str).mapToInt(Integer::parseInt).toArray();
-            Solution ob = new Solution();
+            sol ob = new sol();
             int ans = ob.print2largest(arr);
             System.out.println(ans);
         }
@@ -26,7 +26,7 @@ public class SecondLargest {
 
 // User function Template for Java
 
-class Solution {
+class sol {
     public int print2largest(int[] arr) {
 
         int large = 0;
