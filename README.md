@@ -24,7 +24,7 @@ This file contains all the DSA problems that i have attempted and solved
 - Leetcode
 
   - [Arrays](./Arrays/Leetcode.java)
-    - [x] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
+    - - [x] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 
 
 
