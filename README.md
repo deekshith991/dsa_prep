@@ -28,12 +28,15 @@ This file contains all the DSA problems that i have attempted and solved
 
   - Linked List 
     - - [x] [2. Add two Nums](https://leetcode.com/problems/add-two-numbers/description/)
+    - - [x] [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
 
 
-    | status | type | problems |
-    | --------------- | --------------- | ----------- |
-    | completed | own | 121 |
-    | completed| need to work | 2 |
+
+| status | type | problems |
+| --------------- | --------------- | ----------- |
+| completed | own | 121 |
+| completed| need to work | 2 |
+| completed| oen | 141|
 
 
 
