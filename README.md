@@ -26,5 +26,14 @@ This file contains all the DSA problems that i have attempted and solved
   - [Arrays](./Arrays/Leetcode.java)
     - - [x] [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 
+  - Linked List 
+    - - [x] [2. Add two Nums](https://leetcode.com/problems/add-two-numbers/description/)
+
+
+    | status | type | problems |
+    | --------------- | --------------- | ----------- |
+    | completed | own | 121 |
+    | completed| need to work | 2 |
+
 
 
