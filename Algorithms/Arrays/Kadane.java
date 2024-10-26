@@ -1,5 +1,6 @@
 
 package Algorithms.Arrays;
+
 import Utility.io;
 
 /**
@@ -11,21 +12,21 @@ public class Kadane {
     int[] arr = io.randArr();
     io.display(arr);
 
-    System.out.println( solution(arr) );
+    System.out.println(solution(arr));
   }
 
-  public static int solution(int[] arr){
+  public static int solution(int[] arr) {
 
     int maxi = Integer.MIN_VALUE;
-    int sum =0;
+    int sum = 0;
     for (int i = 0; i < arr.length; i++) {
       sum += arr[i];
-      if( sum > maxi)
+      if (sum > maxi)
         maxi = sum;
 
-      if( sum < 0)
+      if (sum < 0)
         sum = 0;
     }
-    return maxi ;
+    return maxi;
   }
 }
